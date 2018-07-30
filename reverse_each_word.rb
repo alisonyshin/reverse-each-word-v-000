@@ -1,7 +1,7 @@
 def reverse_each_word(phrase)
   word_array = phrase.split(" ")
   word_array.collect {|word| new_array << word.reverse()}
-  new_array.join(" ")
+  word_array.join(" ")
 end
 
 #phrase = "Hello there, and how are you?"
