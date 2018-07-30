@@ -1,6 +1,8 @@
-def reverse_each_word(word)
-  word_array = word.split(" ")
+def reverse_each_word(phrase)
+  word_array = phrase.split(" ")
+  new_array =[]
+  word_array.each {|word| word.reverse}
 end
 
-word = "Hello there, and how are you?"
-reverse_each_word(word)
+phrase = "Hello there, and how are you?"
+reverse_each_word(phrase)
