@@ -5,5 +5,5 @@ def reverse_each_word(phrase)
   return new_array
 end
 
-phrase = "Hello there, and how are you?"
-reverse_each_word(phrase)
+#phrase = "Hello there, and how are you?"
+#reverse_each_word(phrase)
